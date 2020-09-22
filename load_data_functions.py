@@ -24,7 +24,6 @@ def get_data_frame_from_file(filename, fields, **kwargs):
     if 'wanted_values' in kwargs:
         wanted_values = kwargs['wanted_values']
 
-    print("Opening file")
     with open(filename, 'rb') as input_file:
             # load json iteratively
             parser = ijson.parse(input_file, multiple_values=True)
