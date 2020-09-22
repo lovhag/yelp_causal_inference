@@ -9,8 +9,25 @@ def _data_entry_is_wanted(data_entry, wanted_values):
 
     return is_wanted
 
+
 def get_data_frame_from_file(filename, fields, **kwargs):
-    # fields = ["user_id","business_id","stars","useful","text","date"]
+    r"""Collects data from a given file and returns a data frame.
+
+    Args:
+        filename (string): 
+            The path of the file to be read.
+        param fields (list): 
+            The fields to add to the data frame for each item in the file.
+
+    Keyword Arguments:
+        max_nbr_items (int):
+            Specifies the maximum number of items to return in the data frame.
+        wanted_values (dict):
+            Wanted values specified for each field. Only items with fields that
+            match these specified values will be returned.
+            For example, wanted_values={'stars': [4.0]}.
+
+    """
 
     data_dict = {}
     for field in fields:
