@@ -42,5 +42,14 @@ class Vocabulary:
         # Build the string-to-integer map by just inverting the aforementioned map.
         self.stoi = { w: i for i, w in enumerate(self.itos) }
     
+    def build_word_occurence_dict(self, text_list):
+        word_occurence_dict = {token: [] for token in self.stoi}
+        for text in text_list:
+            for token in word_occurence_dict:
+                word_occurence_dict[token].append(text.lower().split(" ").count(token))
+
+        return word_occurence_dict
+
+
     def __len__(self):
         return len(self.itos)
