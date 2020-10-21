@@ -1,4 +1,4 @@
-setwd("/Users/antmats/Desktop/causality-and-causal-inference/project")
+setwd("/Users/antmats/Desktop/causality-and-causal-inference/project/yelp_causal_inference")
 
 # Load libraries
 library(texteffect)
