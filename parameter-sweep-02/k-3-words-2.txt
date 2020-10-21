@@ -1,0 +1,6 @@
+"V1"	"V2"	"V3"
+"manager"	"buffet"	"fry"
+"tell"	"like"	"meat"
+"customer"	"food"	"station"
+"system"	"try"	"sweet"
+"hostess"	"dessert"	"chicken"

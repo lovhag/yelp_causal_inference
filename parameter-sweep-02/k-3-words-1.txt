@@ -1,0 +1,6 @@
+"V1"	"V2"	"V3"
+"manager"	"fry"	"buffet"
+"customer"	"meat"	"like"
+"cashier"	"potato"	"dessert"
+"kiosk"	"station"	"try"
+"hostess"	"chocolate"	"food"

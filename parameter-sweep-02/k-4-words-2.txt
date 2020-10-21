@@ -1,0 +1,6 @@
+"V1"	"V2"	"V3"	"V4"
+"crab"	"horrible"	"get"	"egg"
+"chicken"	"week"	"food"	"brûlée"
+"buffet"	"manager"	"buffet"	"breakfast"
+"leg"	"crowd"	"line"	"omg"
+"rib"	"opinion"	"like"	"waffle"

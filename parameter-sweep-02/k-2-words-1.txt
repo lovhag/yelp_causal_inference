@@ -1,0 +1,6 @@
+"V1"	"V2"
+"buffet"	"groupon"
+"like"	"wonderful"
+"station"	"die"
+"dessert"	"horrible"
+"food"	"desert"

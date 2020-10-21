@@ -1,0 +1,6 @@
+"V1"	"V2"	"V3"	"V4"	"V5"
+"line"	"sushi"	"buffet"	"system"	"rib"
+"wait"	"dim"	"food"	"text"	"prime"
+"people"	"sum"	"line"	"kiosk"	"chicken"
+"tell"	"fresh"	"wait"	"ticket"	"sweet"
+"hour"	"egg"	"time"	"hostess"	"meat"

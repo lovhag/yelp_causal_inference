@@ -1,0 +1,6 @@
+"V1"	"V2"	"V3"	"V4"
+"line"	"fry"	"buffet"	"text"
+"people"	"pork"	"like"	"manager"
+"get"	"taco"	"get"	"kiosk"
+"wait"	"pasta"	"line"	"hour"
+"buffet"	"beef"	"food"	"system"
