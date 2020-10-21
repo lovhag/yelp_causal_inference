@@ -1,3 +1,5 @@
+library(texteffect)
+
 parameter_sweep <- function(X, Y, i_train, k_values, alphas, sigmas, n_iterations, save_to) {
   for (k in k_values) {
     writeLines(paste('Fitting models for k =', k))
