@@ -36,8 +36,8 @@ parameter_sweep <- function(X, Y, i_train, k_values, alphas, sigmas, n_iteration
 }
 
 # Read data
-X <- read.csv('X_lemmatized.csv', header=TRUE)
-Y <- read.csv('Y_lemmatized.csv', header=TRUE)
+X <- read.csv('saved_data/X_lemmatized.csv', header=TRUE)
+Y <- read.csv('saved_data/Y_lemmatized.csv', header=TRUE)
 
 # Extract categorized outcomes
 useful_discrete <- rep(0, nrow(Y))
