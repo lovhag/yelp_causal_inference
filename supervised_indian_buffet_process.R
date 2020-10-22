@@ -1,12 +1,12 @@
-setwd("/Users/antmats/Desktop/causality-and-causal-inference/project/yelp_causal_inference")
+setwd('/Users/antmats/Desktop/causality-and-causal-inference/project/yelp_causal_inference')
 
 # Load libraries
 library(texteffect)
 library(cdfquantreg)
 
 # Read data
-X <- read.csv('X_lemmatized.csv', header=TRUE)
-Y <- read.csv('Y_lemmatized.csv', header=TRUE)
+X <- read.csv('saved_data/X_lemmatized.csv', header=TRUE)
+Y <- read.csv('saved_data/Y_lemmatized.csv', header=TRUE)
 print(names(X[, colSums(X != 0) == 0]))
 # X <- X[, colSums(X != 0) > 0]
 # X <- subset(X, select=-(buffett))
