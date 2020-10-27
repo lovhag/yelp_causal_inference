@@ -1,0 +1,6 @@
+"V1"	"V2"	"V3"
+"line"	"cake"	"groupon"
+"table"	"shrimp"	"pricey"
+"time"	"chicken"	"atmosphere"
+"get"	"mexican"	"manager"
+"wait"	"sweet"	"desert"

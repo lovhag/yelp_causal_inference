@@ -1,0 +1,6 @@
+"V1"	"V2"
+"buffet"	"pricey"
+"like"	"groupon"
+"dessert"	"hotel"
+"food"	"excellent"
+"try"	"omg"

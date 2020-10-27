@@ -1,0 +1,6 @@
+"V1"	"V2"	"V3"	"V4"
+"wait"	"sweet"	"bacon"	"like"
+"line"	"rib"	"sausage"	"buffet"
+"table"	"chocolate"	"mac"	"dessert"
+"time"	"meat"	"snow"	"good"
+"people"	"chicken"	"desert"	"crab"
