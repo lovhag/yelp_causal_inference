@@ -32,6 +32,8 @@ parameter_sweep <- function(X, Y, i_train, k_values, alphas, sigmas, n_iteration
     write.table(runs_ranked_max, paste(save_to, '/k-', k, '-runs-max.txt', sep=''), sep='\t', row.names=FALSE)
     write.table(top_words_1, paste(save_to, '/k-', k, '-words-1.txt', sep=''), sep='\t', row.names=FALSE)
     write.table(top_words_2, paste(save_to, '/k-', k, '-words-2.txt', sep=''), sep='\t', row.names=FALSE)
+    
+    save(sibp_search, file=paste('sibp_search_k_', k, '.RData'))
   }
 }
 
