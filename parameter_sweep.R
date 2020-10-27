@@ -44,22 +44,18 @@ useful_discrete <- rep(0, nrow(Y))
 for (i in seq(1, nrow(Y))) {
   if (Y$useful[i] == 0) {
     useful_discrete[i] <- 0
-  } else if (Y$useful[i] <= 5) {
-    useful_discrete[i] <- 1
-  } else if (Y$useful[i] <= 10) {
-    useful_discrete[i] <- 2
   } else {
-    useful_discrete[i] <- 3
+    useful_discrete[i] <- 1
   }
 }
 Y <- cbind(Y, useful_discrete)
 
 # Sample training indexes
-i_train <- sample(1:nrow(X), size=0.3*nrow(X), replace=FALSE)
+i_train <- sample(1:nrow(X), size=0.2*nrow(X), replace=FALSE)
 
 # Run parameter sweep
-k_values <- c(1, 2, 3, 4, 5)
-alphas <- c(4, 6, 8)
-sigmas <- c(0.7, 1.0, 1.3)
+k_values <- c(2, 3, 4, 5)
+alphas <- c(4, 6, 8, 10, 12)
+sigmas <- c(0.8, 1.0, 1.2)
 n_iterations <- 5
-parameter_sweep(X, Y$useful_discrete, i_train, k_values, alphas, sigmas, n_iterations, save_to='parameter-sweep-02')
+parameter_sweep(X, Y$useful, i_train, k_values, alphas, sigmas, n_iterations, save_to='parameter-sweep-03')
