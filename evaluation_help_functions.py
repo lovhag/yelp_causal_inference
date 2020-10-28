@@ -16,10 +16,10 @@ def get_pandas_data(filename):
     df.info()
     return df
 
-def get_evaluation_data(filename, treatments, confounders):
+def get_evaluation_data(filename, treatments, confounders_cont, confounders_cat):
     df = get_pandas_data(filename)
 
-    return Data(df, treatments, confounders)
+    return Data(df, treatments, confounders_cont, confounders_cat)
 
 
 def get_treatment_model_crossval_scores(models, treatment_groups, X_data, Y_data):
