@@ -13,7 +13,7 @@ class Data:
         stars_dummies = pd.get_dummies(self.data['stars'], drop_first=True, prefix='stars')
         self.data = pd.concat([self.data, stars_dummies], axis=1)
         self.data.drop(columns='stars', inplace=True)
-        self.data['is_positive_sentiment'] = self.data['is_positive_sentiment']. astype(int)
+        self.data['is_positive_sentiment'] = self.data['is_positive_sentiment'].astype(int)
         
         self.confounders_cat = stars_dummies.columns.tolist()
         self.confounders_cat.append('is_positive_sentiment')
